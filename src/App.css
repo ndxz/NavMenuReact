@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar{
+  display: flex;
+  border-bottom: 2px solid blue;
+  
+}
+
+.navbar *{
+text-decoration: none;
+color: black;
+  padding: 5px 10px 0px;
+
+}
+.navbar a:active {
+
+  background-color: lightskyblue;
+}
+.navbar a:hover{
+  color: red;
+}
+
+.drop {
+  position: relative;
+}
+.dropmenu{
+  position: absolute;
+  display: none;
+}
+
+.drop:hover .dropmenu{
+  border: 2px solid blue;
+
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    z-index: 1;
+}
