@@ -46,15 +46,17 @@
 .navbar *{
 text-decoration: none;
 color: black;
-  padding: 5px 10px 0px;
+  padding: 5px 10px;
 
 }
 .navbar a:active {
 
   background-color: lightskyblue;
+  
 }
 .navbar a:hover{
   color: red;
+  cursor: pointer;
 }
 
 .drop {
@@ -67,7 +69,6 @@ color: black;
 
 .drop:hover .dropmenu{
   border: 2px solid blue;
-
   display: flex;
     flex-direction: column;
     justify-content: center;
